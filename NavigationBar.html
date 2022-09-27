@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </header>
+    <style>
+        body {
+            margin: 0;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(159, 165, 173);
+            width: 100%;
+            top: 0;
+            position: sticky;
+            position: -webkit-sticky;
+            border: 1px solid #cd8989;
+        }
+        li {
+            float: left;
+            
+        }
+        li a{
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            padding: 15px 20px;
+        }
+        li a:hover{
+            background-color: rgb(237, 234, 234);
+        }
+        .active{
+            background-color: rgb(43, 56, 69);
+            
+        }
+       
+    </style>
+</body>
+</html>
